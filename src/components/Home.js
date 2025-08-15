@@ -2,7 +2,7 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { FaDownload } from 'react-icons/fa';
 import resumePDF from '../assets/devops_resume-anuj01.pdf'; // Make sure this file exists
-import profileImg from '..assets/ANUJ.jpg'; // ✅ Your profile picture
+import profileImg from '../assets/ANUJ.jpg'; // ✅ Your profile picture
 import '../App.css';
 
 export default function Home() {
