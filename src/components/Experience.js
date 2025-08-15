@@ -5,18 +5,23 @@ import '../App.css';
 
 const experiences = [
   {
-    role: 'XXXXXXXX',
-    company: 'XXXXXX',
-    duration: 'Novemeber 2024 - May 2025',
+    role: 'DevOps Engineer',
+    company: 'Shiwansh Solutions',
+    duration: 'Jan 2025 – Present',
     description:
-      'XXXXXXXXXXXXXXXX'
+      'Working on multiple SaaS-based DevOps pipelines for platforms like ems.shiwansh.com and shiwansh.com. ' +
+      'Developing and maintaining CI/CD pipelines using Jenkins, GitHub webhooks, and shell scripts for automated deployments. ' +
+      'Managing Dockerized applications, backend services, and static frontends with infrastructure provisioning via Ansible and Terraform. ' +
+      'Collaborating with developers to improve pipeline efficiency, implement rollback strategies, and enhance error handling, ' +
+      'ensuring production-ready systems with zero-downtime deployments and real-time monitoring.'
   },
   {
-    role: 'XXXXXXXXXX',
-    company: 'XXXXXXXXXXXXX',
-    duration: 'October 2024 - March 2025',
+    role: 'DevOps Trainee',
+    company: 'Shiwansh Solutions',
+    duration: 'Oct 2024 – Dec 2025',
     description:
-      'XXXXXXXXXXXXX'
+      'Gained foundational experience in DevOps practices, including building CI/CD pipelines, containerization with Docker, ' +
+      'orchestration with Kubernetes, Infrastructure as Code with Terraform and Ansible, and monitoring using Prometheus and Grafana.'
   }
 ];
 
@@ -47,7 +52,7 @@ export default function Experience() {
                 <h5 className="experience-role">{exp.role}</h5>
                 <h6 className="experience-company">{exp.company}</h6>
                 <p className="experience-duration">{exp.duration}</p>
-                <p className="experience-desc">{exp.description}</p>
+                <p className="experience-description">{exp.description}</p>
               </div>
             </motion.div>
           ))}

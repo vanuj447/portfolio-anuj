@@ -5,22 +5,22 @@ import '../App.css';
 
 const educationList = [
   {
-    title: "BACHELORS OF TECHNOLOGY",
-    institution: "XXXXXXXXX",
-    year: "2023",
-    description: "XXXXXXXX"
+    title: "BACHELORS OF ENGINEERING Hons. (Cloud Computing)",
+    institution: "Apex Institute of Technology (CHANDIGARH UNIVERSITY)",
+    year: "2021 - 2025",
+    description: ""
   },
   {
     title: "HIGHER SECONDARY EDUCATION",
-    institution: "XXXXXXXXXXX",
-    year: "2019",
-    description: "XXXXXXXXXXXX"
+    institution: "GRG SCHOOL SIRSA",
+    year: "2019 - 2020",
+    description: ""
   },
   {
     title: "SECONDARY EDUCATION",
-    institution: "XXXXXXXXX",
-    year: "2017",
-    description: "XXXXXXXX"
+    institution: "GRG SCHOOL SIRSA",
+    year: "2017 - 2018",
+    description: ""
   }
 ];
 
